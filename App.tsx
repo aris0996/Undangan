@@ -8,8 +8,8 @@ const EVENT_DATA = {
   title: "Musyawarah Besar XVII",
   subtitle: "Keluarga Besar Mahasiswa STMIK Bina Mulia Palu",
   theme: "Reposisi Organisasi untuk Membangun SDM yang Berintegritas Tinggi Terhadap Lembaga",
-  // Updated to 11 Dec 21:00 WITA based on user request ("today 9 PM")
-  date: new Date('2025-12-11T21:00:00+08:00'),
+  // Updated to 09:00 WITA based on user request ("9 AM")
+  date: new Date('2025-12-11T09:00:00+08:00'),
   location: "Perpustakaan STMIK Bina Mulia Palu",
   address: "Jl. Suprapto No. 38, Palu, Sulawesi Tengah",
   mapsUrl: "https://www.google.com/maps/search/?api=1&query=STMIK+Bina+Mulia+Palu"
@@ -154,7 +154,7 @@ const App: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-bold text-lg mb-1">Waktu</h4>
-                  <p className="text-slate-300">21:00 WITA - Selesai</p>
+                  <p className="text-slate-300">09:00 WITA - Selesai</p>
                 </div>
               </div>
 
